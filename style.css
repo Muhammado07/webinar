@@ -124,7 +124,6 @@
 .nav #brand {
       float: left;
       display: block;
-      line-height: 100px;
 }
 .nav #brand a  img{
       width: 120px;
@@ -136,15 +135,20 @@
       position: fixed;
 }
 
-@media(max-width: 900px) {
+@media(max-width: 991px) {
+      body {
+            overflow-x: hidden;
+      }
 
-
+      .nav {
+            height: 80px;
+      }
       nav #brand {
             margin-left: 10px;
       }
 
-      nav #menu {
-            display: none;
+      .nav #brand a  img{
+            width: 80px;
       }
 }
 
