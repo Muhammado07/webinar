@@ -1,0 +1,365 @@
+
+/* Designed By: Mohamed Ali 2022
+==================================
+======= Johnson Controls Arabia ==========
+==================================
+*/
+/* Main Fonts */
+@font-face {
+      font-family: "Maurea-BoldLf";
+      src: url("./fonts/Maurea-BoldLf.otf") format("opentype");
+      font-weight: bold;
+      font-style: normal;
+  }
+  
+  @font-face {
+      font-family: "Maurea-Light";
+      src: url("./fonts/Maurea-Light.otf") format("opentype");
+      font-weight: lighter;
+      font-style: normal;
+  }
+  ::selection {
+      background: #B33239;
+      color: #ffffff;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+
+* {
+      box-sizing: border-box;
+      margin: 0%;
+      padding: 0%;
+      font-family: "Maurea-BoldLf";
+}
+.container {
+      width: 100%;
+      padding-right: 40px;
+      padding-left: 40px;
+      margin-right: auto;
+      margin-left: auto;
+      position: relative;
+      max-width: 1440px !important;
+      margin: auto;
+    }
+/*--------------- hero section --------------- */
+
+.header {
+     background: url(./img/main-header.png) center center no-repeat;
+     background-size: cover;
+     width: 100%;
+     height: 100vh;
+     position: relative;
+}
+.header .main-info {
+      height: 120vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+}
+.header .main-info .watch {
+      width: 200px;
+      height: 100%;
+      margin: 0 auto;
+}
+.header .main-info .sigma {
+      width: 300px;
+      height: 100%;
+      margin: 30px auto 40px;
+}
+.header .main-info img {
+      width: 100%;
+      height: 100%;
+}
+.header .main-info h1 {
+      color: #ffffff;
+}
+.header .main-info h3 {
+      color: #ffffff;
+      width: 60%;
+      line-height: 1.4;
+      font-family: "Maurea-Light";
+      font-weight: 300;
+      margin-top: 30px;
+      text-align: center;
+      margin: 0 auto;
+}
+
+@media(max-width: 991px) {
+      .header h1 {
+            font-size: 28px !important;
+            text-align: center;
+      }
+      .header .main-info .watch {
+            width: 150px;
+      }
+      .header .main-info .sigma {
+            width: 200px;
+      }
+      .header .main-info .sigma {
+            margin: 20px auto 30px;
+        }
+        .header .main-info h3 {
+            width: 100%;
+            font-size: 18px;
+        }
+}
+
+/*--------------- navigation --------------- */
+
+.nav {
+      width: 100%;
+      height: 100px;
+      position: fixed;
+      z-index: 2;
+      background-color: #ffffff;
+}
+
+.nav.scrolled {
+      background-color: #ffffff !important;
+      transition: background-color 500ms linear;
+}
+
+.nav #brand {
+      float: left;
+      display: block;
+      line-height: 100px;
+}
+.nav #brand a  img{
+      width: 120px;
+}
+
+.nav #menu {
+      float: left;
+      right: 40px;
+      position: fixed;
+}
+
+@media(max-width: 900px) {
+
+
+      nav #brand {
+            margin-left: 10px;
+      }
+
+      nav #menu {
+            display: none;
+      }
+}
+
+
+/*--------------- about section starts  --------------- */
+
+.content {
+      position: absolute;
+      width: 100%;
+}
+
+section {
+      padding: 140px 0 50px;
+      text-align: center;
+}
+
+.section-index {
+      color: #151515;
+      font-weight: bolder;
+      font-size: 20px;
+}
+
+.section-subheading {
+      color: #151515;
+      margin: 10px 0;
+}
+
+.section-info {
+      font-size: 24px;
+      color: #151515;
+      font-family: "Maurea-Light";
+      font-weight: 400;
+      margin: 0 auto;
+}
+
+.more {
+      margin: 60px 0 40px;
+}
+
+#btn {
+      text-transform: uppercase !important;
+      font-size: 12px !important;
+      letter-spacing: 2px;
+      padding: 18px 36px;
+      font-family: "Maurea-BoldLf";
+      border-radius: 4px;
+      transition: all 0.3s ease-in-out;
+      background: #ffffff;
+      color: #B33239;
+      text-decoration: none;
+}
+#btn:hover {
+      opacity: 0.9;
+}
+
+.main-video {
+      width: 1200px;
+      height: 500px;
+      margin: 50px auto 100px;
+}
+@media screen and (max-width: 991px) {
+      .main-video {
+            width: 100%;
+            height: 100%;
+            margin: 50px 0;
+      }
+      section {
+            padding: 0;
+      }
+      .story h1 {
+            font-size: 28px;
+      }
+      .section-info {
+            font-size: 18px;
+      }
+}
+/*--------------- contact section starts here --------------- */
+
+#contact-form {
+      margin: 5% 0;
+}
+.contact {
+      padding: 50px 0;
+}
+
+.contact .icon-title {
+      margin-top: 10px;
+      color: #151515;
+      text-align: center;
+      margin-bottom: 30px;
+}
+
+/*--------------- footer section starts here --------------- */
+
+.footer {
+      background: #fbfbfb;
+      padding: 20px;
+    }
+    .footer .footy {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .footer .footy p {
+      font-size: 14px;
+      text-align: center;
+      padding-bottom: 0 !important;
+      margin-bottom: 0 !important;
+      font-family: "Maurea-Light";
+    }
+
+#media ul {
+      list-style: none;
+}
+
+#media ul li {
+      display: inline-block;
+}
+.contact .formbox {
+      width: 80%;
+      margin: 0 auto;
+     }
+     .contact .formbox form {
+      width: 100%;
+     }
+     .contact .formbox form .input-box {
+      margin-bottom: 24px;
+      width: 100%;
+      text-align: left;
+     }
+     .contact .formbox form .input-box p {
+      font-size: 16px !important;
+      padding-bottom: 10px !important;
+      margin-bottom: 0 !important;
+      font-family: "Maurea-Light";
+      font-weight: 400;
+     }
+     .contact .formbox form .input-box span {
+      font-size: 12px;
+     }
+     .contact .formbox form .input-box input {
+      width: 100%;
+      margin-bottom: 0px;
+      padding: 10px 15px;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 4px;
+      border-color: #D2D2D2;
+      background-color: #ffffff;
+      outline: none;
+     }
+     input::-webkit-outer-spin-button,
+     input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+     }
+     .contact .formbox form .input-boxs {
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+     .contact .formbox form .input-boxs input {
+      background: #B33239;
+      color: #ffffff;
+      font-weight: 500;
+      font-size: 16px;
+      border: none;
+      border-color: transparent;
+      outline: none;
+      padding: 16px 20px;
+      transition: 0.3s;
+      cursor: pointer;
+      border-radius: 4px;
+      width: 50%;
+      transition: all 0.3s ease-in-out;
+      margin-top: 30px;
+     }
+     .contact .formbox form .input-boxs input:hover {
+      opacity: 0.9;
+     }
+     .contact .combin {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      align-items: center;
+      grid-gap: 10px;
+    }
+    .contact #phone {
+      padding: 10px 50px;
+    }
+    .iti {
+      width: 100% !important;
+    }
+    #join-us {
+      scroll-margin-top: 100px;
+    }
+    .form-control {
+      height: 100% !important;
+      padding: 10px 15px !important;
+    }
+    @media screen and (max-width: 991px) {
+      #join-us h1 {
+            font-size: 24px;
+      }
+      .contact .formbox {
+            width: 100%;
+      }
+      .contact .combin {
+            grid-template-columns: 1fr;
+      }
+      .contact .formbox form .input-box {
+            margin-bottom: 16px;
+      }
+      #join-us {
+            scroll-margin-top: 300px;
+          }
+}
