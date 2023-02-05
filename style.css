@@ -241,6 +241,9 @@ section {
       text-align: center;
       margin-bottom: 30px;
 }
+.success {
+      text-align: center;
+}
 
 /*--------------- footer section starts here --------------- */
 
@@ -370,4 +373,7 @@ section {
       #join-us {
             scroll-margin-top: 300px;
           }
+          .success {
+            font-size: 16px;
+      }
 }
