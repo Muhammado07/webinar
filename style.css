@@ -366,9 +366,68 @@ section {
       height: 100% !important;
       padding: 10px 15px !important;
     }
+    .secind-par {
+      margin-top: 20px;
+    }
+    .secind-par ul li {
+      font-size: 22px;
+      color: #151515;
+      font-family: "Maurea-Light";
+      font-weight: 600;
+      margin: 0 auto;
+      margin-left: 15px;
+      text-align: left;
+    }
+
+    .team-member, .team-img {
+      position: relative;
+}
+
+.team-img {
+      background: #151515;
+      height: 340px;
+}
+
+.members {
+      margin: 20px 0 0;
+}
+
+.team-title {
+      margin: 20px 0;
+}
+
+.team-title h5 {
+      font-size: 24px;
+      font-family: "Maurea-BoldLf";
+}
+
+.team-title span {
+      font-size: 18px;
+      font-family: "Maurea-Light";
+}
+
+.team-member {
+      overflow: hidden;
+}
+
+.team-one {
+      background: url('./img/ahmed-al-hussain.png') no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.team-two {
+      background: url('./img/samih.png') no-repeat 50% 50%;
+      background-size: cover;
+}
     @media screen and (max-width: 991px) {
       .contact {
             padding: 0 0 50px;
+      }
+      .team {
+            padding: 0 0 30px;
+      }
+      .team h1 {
+            font-size: 28px;
       }
       #join-us h1 {
             font-size: 24px;
