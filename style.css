@@ -1,5 +1,5 @@
 
-/* Designed By: Mohamed Ali 2022
+/* Designed By: Mohamed Ali 2023
 ==================================
 ======= Johnson Controls Arabia ==========
 ==================================
@@ -72,6 +72,14 @@
       width: 100%;
       height: 100%;
 }
+.header .main-info .sigma h1 {
+      font-family: "Maurea-Light";
+      font-weight: 300;
+      margin-top: 10px;
+      font-size: 60px;
+      margin-bottom: 0;
+      padding-bottom: 0;
+}
 .header .main-info h1 {
       color: #ffffff;
 }
@@ -103,6 +111,9 @@
         .header .main-info h3 {
             width: 100%;
             font-size: 18px;
+        }
+        .header .main-info .sigma h1 {
+            font-size: 40px !important;
         }
 }
 
@@ -240,6 +251,7 @@ section {
       color: #151515;
       text-align: center;
       margin-bottom: 30px;
+      text-transform: uppercase;
 }
 .success {
       text-align: center;
