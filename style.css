@@ -419,6 +419,20 @@ section {
       background: url('./img/samih.png') no-repeat 50% 50%;
       background-size: cover;
 }
+.thank-you .header .main-info {
+      height: 100vh;
+}
+.sigma .successy {
+      width: 200px !important;
+      height: 100%;
+}
+.thank-you .header .main-info h1 {
+      font-size: 32px;
+}
+.thank-you .header .main-info h3 {
+      width: 100%;
+      font-size: 18px;
+}
     @media screen and (max-width: 991px) {
       .contact {
             padding: 0 0 50px;
@@ -446,5 +460,9 @@ section {
           }
           .success {
             font-size: 16px;
+      }
+      .sigma .successy {
+            width: 100px !important;
+            height: 100%;
       }
 }
