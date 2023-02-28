@@ -495,3 +495,20 @@ section {
             padding: 18px 16px;
         }
 }
+@media screen and (max-width:322px) {
+      .header .main-info .sigma h1 {
+            font-size: 28px !important;
+      }
+      .header .main-info img {
+            width: 80%;
+      }
+      .header .main-info h2 {
+            font-size: 22px;
+        }
+        .header .main-info h3 {
+            font-size: 16px;
+        }
+        #btn {
+            padding: 18px 16px;
+        }
+}
