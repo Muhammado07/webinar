@@ -107,15 +107,17 @@
             width: 200px;
       }
       .header .main-info .sigma {
-            margin: 20px auto 30px;
+            margin: 20px auto 10px;
         }
         .header .main-info h3 {
             width: 100%;
             font-size: 18px;
         }
+        
         .header .main-info .sigma h1 {
             font-size: 40px !important;
         }
+        
 }
 
 /*--------------- navigation --------------- */
@@ -480,4 +482,16 @@ section {
       .show-date {
             width: 220px;
       }
+}
+
+@media screen and (max-width:374px) {
+      .header .main-info img {
+            width: 90%;
+      }
+      .header .main-info h2 {
+            font-size: 26px;
+        }
+        #btn {
+            padding: 18px 16px;
+        }
 }
