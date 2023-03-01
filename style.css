@@ -67,6 +67,9 @@
       width: 300px;
       height: 100%;
       margin: 30px auto 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 }
 .header .main-info img {
       width: 100%;
@@ -94,7 +97,11 @@
       text-align: center;
       margin: 0 auto;
 }
-
+.nav-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
 @media(max-width: 991px) {
       .header h1 {
             font-size: 28px !important;
@@ -155,14 +162,14 @@
       }
 
       .nav {
-            height: 80px;
+            height: 100px;
       }
       nav #brand {
             margin-left: 10px;
       }
 
-      .nav #brand a  img{
-            width: 80px;
+      .nav #brand a img{
+            width: 100px;
       }
 }
 
@@ -220,7 +227,10 @@ section {
 #btn:hover {
       opacity: 0.9;
 }
-
+.morey #btn {
+      background: #B33239;
+      color: #ffffff;
+}
 .main-video {
       width: 700px;
       height: 300px;
@@ -482,6 +492,10 @@ section {
       .show-date {
             width: 220px;
       }
+      .morey #btn {
+            font-size: 11px !important;
+            padding: 16px;
+      }
 }
 
 @media screen and (max-width:374px) {
@@ -494,6 +508,17 @@ section {
         #btn {
             padding: 18px 16px;
         }
+        .nav {
+            height: 80px;
+      }
+
+      .nav #brand a img{
+            width: 60px;
+      }
+      .morey #btn {
+            font-size: 9px !important;
+            padding: 11px;
+      }
 }
 @media screen and (max-width:322px) {
       .header .main-info .sigma h1 {
@@ -511,4 +536,5 @@ section {
         #btn {
             padding: 18px 16px;
         }
+        
 }
